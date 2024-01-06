@@ -1,0 +1,15 @@
+{
+    "name": "azulsample/mylog",
+    "description": "Simple Logger. This package can output log easily.",
+    "license": "MIT",
+    "homepage": "https://github.com/Blue89Azul",
+    "keywords": ["log", "sample"],
+    "require": {
+        "monolog/monolog": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "AzulSample\\MyLog\\": "src"
+        }
+    }
+}
